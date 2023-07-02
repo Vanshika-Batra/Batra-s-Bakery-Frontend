@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300:400:500:600:700&display=swap');
+:root{
+    --black: #181722;
+    --white: #F0F0F0;
+    --box-shadow: 0px 4px 4 px rgba(0,0,0, 0.25);
+}
+*{
+    font-family: 'Quicksand', sans-serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 7rem;
+    scroll-behavior: smooth;
+}
+html::-webkit-scrollbar{
+    width: .8rem;
+}
+html::-webkit-scrollbar-track{
+    background: transparent;
+}
+html::-webkit-scrollbar-thumb{
+    background-color: var(--white);
+    border-radius: 5rem;
+}
+.header{
+    top: 0; right: 0;left: 0;
+    background-color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    padding: 1.4rem 7%;
+    z-index:999;
+}
+.header .logoContent{
+    display: flex;
+    align-items: center;
+}
+.header .logoContent .logoName{
+    color:var(--black);
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+.header .navbar a{
+    font-size: 2rem;
+    margin-right: 3rem;
+    color: var(--black);
+    font-weight: bold;
+}
+.header .navbar a:hover{
+    border-bottom: .1rem solid var (--black);
+    padding-bottom: .4rem;
+}
+.header .icon i{
+    font-size:2rem;
+    margin-right: 2rem;
+    color:var(--black);
+    cursor: pointer;
+}
+.header .search{
+    display: none;
+    top: 100%;
+    margin: 1.5rem 7%;
+    background-color: transparent;
+    width: 50%;
+    position: absolute;
+    height: 5rem;
+    right: 0;
+}
+.header .search input{
+    width:100%;
+    height: 100%;
+    font-size: 1.5rem;
+    background-color: var(--white);
+    color: var(--black);
+    margin-right: 7%;
+    padding: 0.5rem 1 rem;
+    box-shadow: var(--box-shadow);
+    border-radius: 1rem;
+}
+.header .search.active{
+    display: inline-block; 
+}
+#menu-bar{
+    display:none;
+}
+
+.home{
+    min-height:100vh;
+    display: flex;
+    align-items: center;
+    background: url("https://images.pexels.com/photos/7716556/pexels-photo-7716556.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.home .homeContent{
+    width:50%;
+    float: left;
+    text-align: center;
+}
+.home .homeContent h4{
+    font-size: 7rem;
+    font-weight: bolder;
+    margin-bottom: 2rem;
+    line-height: 7rem;
+    color: var(--black);
+    text-shadow: var(--box-shadow);
+}
+.home .homeContent p{
+    font-size: 1.8rem;
+    line-height: 2rem;
+    margin-bottom: 2rem;
+}
+.home .homeContent.home-btn button{
+    font-size:1.8rem;
+    background-color: var(--black);
+    color:var(--white);
+    border-radius: .7rem;
+    padding: .7rem 2rem;
+    cursor: pointer;
+}
+.home .homeContent .home-btn button:hover{
+    font-size: 2rem;
+}
+
+.heading{
+    text-align: center;
+    font-size: 2.6rem;
+    margin-bottom: 3rem;
+    color: var(--black);
+}
+
+.product-content .orderNow{
+    height:3rem;
+    margin-top: 4px;
+}
+.product-content p{
+    font-size: 1.5rem;
+    line-height: 1.6rem;
+    color: var(--black);
+}
+.product-content h3{
+    font-size:3.4rem;
+}
+.productsDisplay{
+    margin:30px;
+}
+.product-content{
+    text-align: center;
+}
+.two .img, .one .img, .three .img{
+    margin-left: 90px;
+    align-self: center;
+}
+.one, .two, .three{
+    
+    border: #181722;
+}
+.one, .two{
+    float: left;
+    width: 33%;
+    height: 400px;
+}
+.three{
+    float: right;
+    width: 33%;
+    height: 400px;
+}
+.newsletter{
+    background: url("https://images.pexels.com/photos/7845124/pexels-photo-7845124.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin-top: 600px;
+}
+.newsletter form{
+    max-width: 45rem;
+    text-align: center;
+    padding: 5rem 0;
+}
+.newsletter form h3{
+    font-size: 3rem;
+    color: var(--white);
+    padding-bottom: .7rem;
+}
+.newsletter form .box{
+    width: 100%;
+    margin: .7rem 0;
+    padding: 1rem 1.2rem;
+    color: var(--black);
+    border-radius: .5rem;
+}
+.newsletter form .box2{
+    width: 30%;
+    padding: .5rem .5rem;
+    margin-top: 1rem;
+    border-radius: 3rem;
+}
+
+.footer{
+    background: url("https://images.pexels.com/photos/2078271/pexels-photo-2078271.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    background-position: center center;
+}
+.footer .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem,1fr));
+    gap: 1.5rem;
+}
+.footer .box-container .mainBox .content{
+    display:  flex;
+     align-items:  center;
+     margin-bottom: 2rem;
+
+}
+.footer .box-container .mainBox .content h1{
+    font-size: 2rem;
+    color: var(--black);
+}
+.footer .box-container .mainBox p{
+    font-size: 1.7rem;
+    line-height: 1.1;
+    margin-bottom: 2rem;
+}
+.footer .box-container .box h3{
+    font-size: 2.2rem;
+    color: var(--black);
+    padding: 1rem 0;
+}
+.footer .box-container .box a{
+    display: block;
+    font-size: 1.6rem;
+    color: var(--black);
+    padding: 1rem 0;
+}
+/* .footer .box-container .box a{
+    padding-right: .5rem;
+} */
+.footer .box-container .box b:hover{
+    padding-right: 5rem;
+}
+
+/* for responsiveness */
+@media(max-width:768px){
+    #menu-bar{
+        display: inline-block;
+    }
+    .header .navbar{
+        position:absolute;
+        top:100%; right:-100%;
+        width:25rem;
+        background-color: var(--white);
+        color:var(--black);
+        height:80vh;
+    }
+    .header .navbar.active{
+        right:0;
+    }
+    .header .navbar a{
+     display: block;
+     font-size: 2rem;
+     color: black;
+     margin: 1.5rem;   
+    }
+}
+
+@media(max-width:600px){
+    html{
+        font-size:50%;
+    }
+}

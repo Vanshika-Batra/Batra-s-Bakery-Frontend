@@ -1,0 +1,73 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<Restraunt>
+    <food category = "drinks">
+        <drinks subCategory = "inDrinks">
+            <inDrinks sub2Category = "Lassi">
+                <menu>Mango Lassi</menu>
+                <price>40</price>
+            </inDrinks>
+        </drinks>
+        <drinks subCategory = "inDrinks">
+            <inDrinks sub2Category = "Lassi">
+                <menu>Salted Lassi</menu>
+                <price>20</price>
+            </inDrinks>
+        </drinks>
+        <drinks subCategory = "inDrinks">
+            <inDrinks sub2Category = "Lassi">
+                <menu>Sweet Lassi</menu>
+                <price>20</price>
+            </inDrinks>
+
+            <inDrinks sub2Category = "Soda">
+                <menu>Fresh Lime Sode</menu>
+                <price>20</price>
+            </inDrinks>
+            <inDrinks sub2Category = "Soda">
+                <menu>Rose Soda</menu>
+                <price>20</price>
+            <inDrinks sub2Category = "Soda">
+                <menu>Ginger Ale</menu>
+                <price>25</price>
+            </inDrinks>
+            
+            <inDrinks sub2Category = "Tea">
+                <menu>Masala Tea</menu>
+                <price>25</price>
+            </inDrinks>
+            <inDrinks sub2Category = "Tea">
+                <menu>Iced Masala Tea</menu>
+                <price>30</price>
+            </inDrinks>
+            <inDrinks sub2Category = "Tea">
+                <menu>Mint Tea</menu>
+                <price>25</price>
+            </inDrinks>
+            <inDrinks sub2Category = "Tea">
+                <menu>Green Tea</menu>
+                <price>25</price>
+            </inDrinks>
+
+            <inDrinks sub2Category = "Shakes">
+                <menu>Mango Shake</menu>
+                <price>40</price>
+            </inDrinks>
+            <inDrinks sub2Category = "Shakes">
+                <menu>Strawberry Shake</menu>
+                <price>40</price>
+            </inDrinks>
+            <inDrinks sub2Category = "Shakes">
+                <menu>Blackcurrent Shake</menu>
+                <price>50</price>
+            </inDrinks>
+            <inDrinks sub2Category = "Shakes">
+                <menu>Oreo Shake</menu>
+                <price>60</price>
+            </inDrinks>
+            <inDrinks sub2Category = "Shakes">
+                <menu>Paan Shake</menu>
+                <price>60</price>
+            </inDrinks>
+        </drinks>
+    </food>
+    </Restraunt>
